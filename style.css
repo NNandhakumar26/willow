@@ -10,23 +10,20 @@
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-nav .nav-link{
     margin: 4px;
-    font-weight: 600;
-    color: #0044e3
+    color: #717171;
 }
 .navbar-nav{
     margin-left: 16%;
 }
 .navbar-brand{
     margin-left: 10%;
+    font-weight: 800;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
     margin-top: 0;
-}
-.dropdown-item:hover{
-    font-family: 'Poppins',sans-serif;
 }
 .dropdown-item{
     margin: 8px;
