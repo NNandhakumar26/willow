@@ -5,7 +5,42 @@
     box-sizing: border-box;
 }
 
-.container{
+/* Navbar section */
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav .nav-link{
+    margin: 4px;
+    color: #717171;
+}
+.navbar-nav{
+    margin-left: 16%;
+}
+.navbar-brand{
+    margin-left: 10%;
+    font-weight: 800;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.dropdown-item{
+    margin: 8px;
+}
+.dropdown-menu{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 700px;
+}
+.dropdown-head{
+    padding: 15px 0px 0px 12px;
+    color: #0044e3;
+}
+.drop-icon{
+    margin-right: 10px;
+}
+/* Testimonial section */
+.testi.container{
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -41,7 +76,7 @@
     margin-bottom: 50px;
     margin-top: 20px;
 }
-.fa{
+.fa-star{
     color: gold;
 }
 .con-text{
@@ -62,13 +97,13 @@
     position: relative;
 }
 .dot-pattern{
+    -webkit-mask-image: url(dots.svg); 
     position:absolute;
     left: 15px;
     top: 25px;
     width: 300px;
     height: 300px;
     background-color: #0044e3;
-    border-radius: 10px;
     z-index: -1;
 }
 .pic-container{
