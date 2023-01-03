@@ -40,7 +40,7 @@
 .fab,
 .fad,
 .fal,
-.far,
+.fa,
 .fas,
 .fat {
   -moz-osx-font-smoothing: grayscale;
@@ -23978,12 +23978,12 @@
 .fa-light,
 .fa-regular,
 .fal,
-.far {
+.fa {
   font-family: "Font Awesome 6 Pro";
 }
 
 .fa-regular,
-.far {
+.fa {
   font-weight: 400;
 }
 
