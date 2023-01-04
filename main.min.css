@@ -1,26 +1,11 @@
 @charset "UTF-8";
-/*================
- Template Name: Quiety - Software Technology & IT Solutions Saas HTML Template
- Description: Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.
- Version: 1.0
- Author: https://themeforest.net/user/themetags
-=======================*/
-/************ Insurance Home ***********/
-/*********** marketing home *************/
-/********** crm demo **************/
-/************** help desk demo ************/
-/**
- * Swiper 8.3.1
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * https://swiperjs.com
- *
- * Copyright 2014-2022 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: July 13, 2022
- */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+
+
+
+
+
+600&family=Poppins:wght@400;500;600;700;800&display=swap");
 @font-face {
   font-family: swiper-icons;
   src: url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA");
@@ -27723,7 +27708,7 @@ hr {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.650rem;
+  margin-bottom: 0.625rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -28217,7 +28202,7 @@ progress {
   color: #575757;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -49839,7 +49824,7 @@ li.setup-process-item:not(:last-child):before {
 
 /* Game Services */
 .game-service-bg {
-  background-image: url("../img/service-bg.png");
+  background-image: url(../img/service-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49964,7 +49949,7 @@ li.setup-process-item:not(:last-child):before {
 }
 /* Counter */
 .game-counter-bg {
-  background-image: url("/counter-bg.png");
+  background-image: url(/counter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50055,7 +50040,7 @@ li.setup-process-item:not(:last-child):before {
 
 /* Game Faq */
 .game-faq {
-  background-image: url("../img/faq-bg.png");
+  background-image: url(../img/faq-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50230,7 +50215,7 @@ li.setup-process-item:not(:last-child):before {
 }
 
 .hero-payment-gateway {
-  background: url("../img/pay-h.jpg");
+  background: url(../img/pay-h.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53869,36 +53854,6 @@ span.mk-subtitle {
   }
 }
 
-/************* Service Section ************/
-.service-item{
-  color: white;
-  margin: 15px;
-  width: 244px;
-  padding: 25px;
-  border-radius:8px;
-  cursor: pointer;
-}
-a, a:hover, a:focus, a:active{
-  text-decoration: none !important;
-  color: inherit;
-}
-.item-1{
-  background-color: #0076c9;
-  text-align: center;
-}
-.item-2{
-  background-color: #13986c;
-  text-align: center;
-}
-.item-3{
-  background-color: #e8db20;
-  text-align: center;
-}
-.item-4{
-  background-color: #cc303d;
-  text-align: center;=
-}
-
 /************* pricing section ************/
 .hd-pricing-section {
   background-color: #FBF1F7;
@@ -54059,4 +54014,6 @@ a, a:hover, a:focus, a:active{
 }
 
 /*# sourceMappingURL=scss */
+/*# sourceMappingURL=main.css.map */
+
 /*# sourceMappingURL=main.css.map */
