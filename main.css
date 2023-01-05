@@ -27723,7 +27723,7 @@ hr {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.650rem;
+  margin-bottom: 0.625rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -28217,7 +28217,7 @@ progress {
   color: #575757;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -45790,8 +45790,8 @@ a:hover,
 }
 
 .dot-mask {
-  -webkit-mask-image: url(../img/dots.svg);
-  mask-image: url(../img/dots.svg);
+  -webkit-mask-image: url(/assets/img/dots.svg);
+  mask-image: url(assets/img/dots.svg);
 }
 
 .dm-wh-200 {
@@ -53867,36 +53867,6 @@ span.mk-subtitle {
   .hd-brands-wrapper .hd-single-brand {
     width: 50%;
   }
-}
-
-/************* Service Section ************/
-.service-item{
-  color: white;
-  margin: 15px;
-  width: 244px;
-  padding: 25px;
-  border-radius:8px;
-  cursor: pointer;
-}
-a, a:hover, a:focus, a:active{
-  text-decoration: none !important;
-  color: inherit;
-}
-.item-1{
-  background-color: #0076c9;
-  text-align: center;
-}
-.item-2{
-  background-color: #13986c;
-  text-align: center;
-}
-.item-3{
-  background-color: #e8db20;
-  text-align: center;
-}
-.item-4{
-  background-color: #cc303d;
-  text-align: center;=
 }
 
 /************* pricing section ************/
