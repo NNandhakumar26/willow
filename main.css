@@ -45790,8 +45790,8 @@ a:hover,
 }
 
 .dot-mask {
-  -webkit-mask-image: url(/assets/img/dots.svg);
-  mask-image: url(assets/img/dots.svg);
+  -webkit-mask-image: url(../assets/img/dots.svg);
+  mask-image: url(../assets/img/dots.svg);
 }
 
 .dm-wh-200 {
