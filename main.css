@@ -47001,11 +47001,11 @@ a:hover,
 }
 
 .integration-list-wrap a {
-  width: 65px;
+  width: 80px;
 }
 
 .integration-list-wrap a img {
-  padding: 10px;
+  padding: 8px;
 }
 
 .integration-list-wrap a.integration-1 {
@@ -47089,10 +47089,10 @@ a:hover,
   }
   .integration-list-wrap a {
     position: inherit;
-    width: 45px;
+    width: 80px;
   }
   .integration-list-wrap a img {
-    padding: 10px;
+    padding: 8px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -54027,6 +54027,100 @@ span.mk-subtitle {
 .hd-video-btn:hover {
   color: #FF3D55;
 }
+
+/* about section */
+.about
+{
+    margin: 120px 0px 150px 0px;
+    height:450px;
+}
+
+.about-image{
+    position:relative;
+}
+
+.about-image .aimage1{
+    position:absolute;
+    right:50px;
+    top:100px;
+
+}
+
+.about-image .aimage2{
+    position:absolute;
+     left:100px; 
+    top:200px;
+    z-index: -1;
+}
+
+.nav-link{
+  position:relative;
+}
+.row{
+  position: relative;
+}
+.line{
+  content: "";
+  position: absolute;
+  background-color: #EBEBEB;
+  width: 50px;
+  height: 3px;
+  top: 282px;
+}
+.service-nav:after{
+  content:"";
+  position:absolute;
+  background-color: #EBEBEB;
+  height:3px;
+  width:100%;
+  left:0;
+  bottom:-8px;
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+}
+.service-nav:hover:after{
+  transform: scale(1,1);
+  background-color: #0F67F6;
+  height:3px;
+  width:100%;
+  color: #ff3c78;
+}
+#hov3, #hov2, #hov1{
+  color:#333333;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+#hov3:hover, #hov2:hover, #hov1:hover{
+  color:#0f67f6;
+}
+#hov3:active, #hov2:active, #hov1:active{
+  color:#0f67f6;
+}
+
+/*-------------circle---------------------------*/
+.moving-circle {
+      
+  justify-content: center;
+  border-radius: 50%;
+border: 60px solid rgb(18, 8, 202);
+  width: 540px;
+  height: 540px;
+  animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+
+position: absolute;
+z-index: -1;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 50px, 0); }
+}
+/*----------------------------------------------*/
+
 
 /*# sourceMappingURL=scss */
 /*# sourceMappingURL=main.css.map */
